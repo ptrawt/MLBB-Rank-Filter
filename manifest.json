@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "MLBB Rank Filter",
+  "description": "Add lane and hero type filters to Mobile Legends hero ranking table",
+  "version": "1.0.0",
+  "permissions": [],
+  "icons": {
+    "16": "icons/favicon-16x16.png",
+    "32": "icons/favicon-32x32.png",
+    "128": "icons/favicon-192x192.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["hero_map.json"],
+      "matches": ["https://www.mobilelegends.com/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.mobilelegends.com/rank*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

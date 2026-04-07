@@ -1,0 +1,1499 @@
+{
+  "heroes": [
+    {
+      "name": "Aamon",
+      "heroid": 109,
+      "channel_id": 2678845,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Akai",
+      "heroid": 9,
+      "channel_id": 2678745,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Aldous",
+      "heroid": 64,
+      "channel_id": 2678800,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Alice",
+      "heroid": 4,
+      "channel_id": 2678740,
+      "types": [
+        "Tank",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Alpha",
+      "heroid": 28,
+      "channel_id": 2678764,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Alucard",
+      "heroid": 7,
+      "channel_id": 2678743,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Angela",
+      "heroid": 55,
+      "channel_id": 2678791,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Argus",
+      "heroid": 45,
+      "channel_id": 2678781,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Arlott",
+      "heroid": 120,
+      "channel_id": 2678856,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Atlas",
+      "heroid": 93,
+      "channel_id": 2678829,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Aulus",
+      "heroid": 108,
+      "channel_id": 2678844,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Aurora",
+      "heroid": 36,
+      "channel_id": 2678772,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Badang",
+      "heroid": 77,
+      "channel_id": 2678813,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Balmond",
+      "heroid": 2,
+      "channel_id": 2667596,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Bane",
+      "heroid": 11,
+      "channel_id": 2678747,
+      "types": [
+        "Fighter",
+        "Mage"
+      ],
+      "lanes": [
+        "Jungle",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Barats",
+      "heroid": 99,
+      "channel_id": 2678835,
+      "types": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Baxia",
+      "heroid": 87,
+      "channel_id": 2678823,
+      "types": [
+        "Tank"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Beatrix",
+      "heroid": 105,
+      "channel_id": 2678841,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Belerick",
+      "heroid": 70,
+      "channel_id": 2678806,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Benedetta",
+      "heroid": 97,
+      "channel_id": 2678833,
+      "types": [
+        "Assassin",
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Brody",
+      "heroid": 100,
+      "channel_id": 2678836,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Bruno",
+      "heroid": 12,
+      "channel_id": 2678748,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Carmilla",
+      "heroid": 92,
+      "channel_id": 2678828,
+      "types": [
+        "Support",
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Cecilion",
+      "heroid": 91,
+      "channel_id": 2678827,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Chang'e",
+      "heroid": 61,
+      "channel_id": 2678797,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Chip",
+      "heroid": 124,
+      "channel_id": 2692209,
+      "types": [
+        "Support",
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Chou",
+      "heroid": 26,
+      "channel_id": 2678762,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Cici",
+      "heroid": 123,
+      "channel_id": 2678859,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Claude",
+      "heroid": 65,
+      "channel_id": 2678801,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Clint",
+      "heroid": 13,
+      "channel_id": 2678749,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Cyclops",
+      "heroid": 33,
+      "channel_id": 2678769,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Diggie",
+      "heroid": 48,
+      "channel_id": 2678784,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Dyrroth",
+      "heroid": 85,
+      "channel_id": 2678821,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Edith",
+      "heroid": 111,
+      "channel_id": 2678847,
+      "types": [
+        "Tank",
+        "Marksman"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Esmeralda",
+      "heroid": 81,
+      "channel_id": 2678817,
+      "types": [
+        "Tank",
+        "Mage"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Estes",
+      "heroid": 34,
+      "channel_id": 2678770,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Eudora",
+      "heroid": 15,
+      "channel_id": 3266137,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Fanny",
+      "heroid": 17,
+      "channel_id": 2678753,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Faramis",
+      "heroid": 76,
+      "channel_id": 2678812,
+      "types": [
+        "Support",
+        "Mage"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Floryn",
+      "heroid": 112,
+      "channel_id": 2678848,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Franco",
+      "heroid": 10,
+      "channel_id": 2678746,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Fredrinn",
+      "heroid": 117,
+      "channel_id": 2678853,
+      "types": [
+        "Fighter",
+        "Tank"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Freya",
+      "heroid": 22,
+      "channel_id": 2678758,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Gatotkaca",
+      "heroid": 41,
+      "channel_id": 2678777,
+      "types": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Roam",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Gloo",
+      "heroid": 104,
+      "channel_id": 2678840,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Gord",
+      "heroid": 23,
+      "channel_id": 2678759,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Granger",
+      "heroid": 79,
+      "channel_id": 2678815,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Grock",
+      "heroid": 44,
+      "channel_id": 2678780,
+      "types": [
+        "Tank",
+        "Fighter"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Guinevere",
+      "heroid": 80,
+      "channel_id": 2678816,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Gusion",
+      "heroid": 56,
+      "channel_id": 2678792,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Hanabi",
+      "heroid": 60,
+      "channel_id": 2678796,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Hanzo",
+      "heroid": 69,
+      "channel_id": 2678805,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Harith",
+      "heroid": 73,
+      "channel_id": 2678809,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Gold Lane",
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Harley",
+      "heroid": 42,
+      "channel_id": 2678778,
+      "types": [
+        "Assassin",
+        "Mage"
+      ],
+      "lanes": [
+        "Jungle",
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Hayabusa",
+      "heroid": 21,
+      "channel_id": 2678757,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Helcurt",
+      "heroid": 51,
+      "channel_id": 2678787,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Hilda",
+      "heroid": 35,
+      "channel_id": 2678771,
+      "types": [
+        "Fighter",
+        "Tank"
+      ],
+      "lanes": [
+        "Roam",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Hylos",
+      "heroid": 49,
+      "channel_id": 2678785,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Irithel",
+      "heroid": 43,
+      "channel_id": 2678779,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Ixia",
+      "heroid": 121,
+      "channel_id": 2678857,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Jawhead",
+      "heroid": 54,
+      "channel_id": 2678790,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Johnson",
+      "heroid": 32,
+      "channel_id": 2678768,
+      "types": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Joy",
+      "heroid": 118,
+      "channel_id": 2678854,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Julian",
+      "heroid": 116,
+      "channel_id": 2678852,
+      "types": [
+        "Assassin",
+        "Fighter"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Kadita",
+      "heroid": 75,
+      "channel_id": 2678811,
+      "types": [
+        "Mage",
+        "Assassin"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Kagura",
+      "heroid": 25,
+      "channel_id": 2678761,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Kaja",
+      "heroid": 62,
+      "channel_id": 2678798,
+      "types": [
+        "Support",
+        "Fighter"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Kalea",
+      "heroid": 128,
+      "channel_id": 2863075,
+      "types": [
+        "Support",
+        "Fighter"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Karina",
+      "heroid": 8,
+      "channel_id": 2678744,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Karrie",
+      "heroid": 40,
+      "channel_id": 2678776,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Khaleed",
+      "heroid": 98,
+      "channel_id": 2678834,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Roam",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Khufra",
+      "heroid": 78,
+      "channel_id": 2678814,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Kimmy",
+      "heroid": 71,
+      "channel_id": 2678807,
+      "types": [
+        "Marksman",
+        "Mage"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Lancelot",
+      "heroid": 47,
+      "channel_id": 2678783,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Lapu-Lapu",
+      "heroid": 37,
+      "channel_id": 2678773,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Layla",
+      "heroid": 18,
+      "channel_id": 2678754,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Leomord",
+      "heroid": 67,
+      "channel_id": 2678803,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Lesley",
+      "heroid": 53,
+      "channel_id": 2678789,
+      "types": [
+        "Marksman",
+        "Assassin"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Ling",
+      "heroid": 84,
+      "channel_id": 2678820,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Lolita",
+      "heroid": 20,
+      "channel_id": 2678756,
+      "types": [
+        "Support",
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Lukas",
+      "heroid": 127,
+      "channel_id": 2819992,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Lunox",
+      "heroid": 68,
+      "channel_id": 2678804,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Luo Yi",
+      "heroid": 96,
+      "channel_id": 2678832,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Lylia",
+      "heroid": 86,
+      "channel_id": 2678822,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Marcel",
+      "heroid": 132,
+      "channel_id": 3280483,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Martis",
+      "heroid": 58,
+      "channel_id": 2678794,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Masha",
+      "heroid": 88,
+      "channel_id": 2678824,
+      "types": [
+        "Fighter",
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Mathilda",
+      "heroid": 102,
+      "channel_id": 2678838,
+      "types": [
+        "Support",
+        "Assassin"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Melissa",
+      "heroid": 114,
+      "channel_id": 2678850,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Minotaur",
+      "heroid": 19,
+      "channel_id": 2678755,
+      "types": [
+        "Tank",
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Minsitthar",
+      "heroid": 74,
+      "channel_id": 2678810,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Miya",
+      "heroid": 1,
+      "channel_id": 2667597,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Moskov",
+      "heroid": 31,
+      "channel_id": 2678767,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Nana",
+      "heroid": 5,
+      "channel_id": 2678741,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Natalia",
+      "heroid": 24,
+      "channel_id": 2678760,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Natan",
+      "heroid": 107,
+      "channel_id": 2678843,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Nolan",
+      "heroid": 122,
+      "channel_id": 2678858,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Novaria",
+      "heroid": 119,
+      "channel_id": 2678855,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Obsidia",
+      "heroid": 130,
+      "channel_id": 3131750,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Odette",
+      "heroid": 46,
+      "channel_id": 2678782,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Paquito",
+      "heroid": 103,
+      "channel_id": 2678839,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Pharsa",
+      "heroid": 52,
+      "channel_id": 2678788,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Phoveus",
+      "heroid": 106,
+      "channel_id": 2678842,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Popol and Kupa",
+      "heroid": 94,
+      "channel_id": 2678830,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Jungle",
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "Rafaela",
+      "heroid": 14,
+      "channel_id": 2678750,
+      "types": [
+        "Support"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Roger",
+      "heroid": 39,
+      "channel_id": 2678775,
+      "types": [
+        "Fighter",
+        "Marksman"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "heroid": 29,
+      "channel_id": 2678765,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Saber",
+      "heroid": 3,
+      "channel_id": 2667595,
+      "types": [
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle",
+        "Roam"
+      ]
+    },
+    {
+      "name": "Selena",
+      "heroid": 63,
+      "channel_id": 2678799,
+      "types": [
+        "Assassin",
+        "Mage"
+      ],
+      "lanes": []
+    },
+    {
+      "name": "Silvanna",
+      "heroid": 90,
+      "channel_id": 2678826,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Sora",
+      "heroid": 131,
+      "channel_id": 3245715,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Sun",
+      "heroid": 27,
+      "channel_id": 2678763,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane",
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Suyou",
+      "heroid": 126,
+      "channel_id": 2763832,
+      "types": [
+        "Assassin",
+        "Fighter"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Terizla",
+      "heroid": 82,
+      "channel_id": 2678818,
+      "types": [
+        "Fighter",
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Thamuz",
+      "heroid": 72,
+      "channel_id": 2678808,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Tigreal",
+      "heroid": 6,
+      "channel_id": 2678742,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Roam"
+      ]
+    },
+    {
+      "name": "Uranus",
+      "heroid": 59,
+      "channel_id": 2678795,
+      "types": [
+        "Tank"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Vale",
+      "heroid": 66,
+      "channel_id": 2678802,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Valentina",
+      "heroid": 110,
+      "channel_id": 2678846,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Valir",
+      "heroid": 57,
+      "channel_id": 2678793,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Vexana",
+      "heroid": 38,
+      "channel_id": 2678774,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Wanwan",
+      "heroid": 89,
+      "channel_id": 2678825,
+      "types": [
+        "Marksman"
+      ],
+      "lanes": [
+        "Gold Lane"
+      ]
+    },
+    {
+      "name": "X.Borg",
+      "heroid": 83,
+      "channel_id": 2678819,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Xavier",
+      "heroid": 115,
+      "channel_id": 2678851,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Yi Sun-shin",
+      "heroid": 30,
+      "channel_id": 2678766,
+      "types": [
+        "Assassin",
+        "Marksman"
+      ],
+      "lanes": [
+        "Jungle"
+      ]
+    },
+    {
+      "name": "Yin",
+      "heroid": 113,
+      "channel_id": 2678849,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Jungle",
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Yu Zhong",
+      "heroid": 95,
+      "channel_id": 2678831,
+      "types": [
+        "Fighter"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    },
+    {
+      "name": "Yve",
+      "heroid": 101,
+      "channel_id": 2678837,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Zetian",
+      "heroid": 129,
+      "channel_id": 3054554,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Zhask",
+      "heroid": 50,
+      "channel_id": 2678786,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Zhuxin",
+      "heroid": 125,
+      "channel_id": 2727282,
+      "types": [
+        "Mage"
+      ],
+      "lanes": [
+        "Mid Lane"
+      ]
+    },
+    {
+      "name": "Zilong",
+      "heroid": 16,
+      "channel_id": 2678752,
+      "types": [
+        "Fighter",
+        "Assassin"
+      ],
+      "lanes": [
+        "Exp Lane"
+      ]
+    }
+  ]
+}
