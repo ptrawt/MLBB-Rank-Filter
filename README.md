@@ -139,6 +139,4 @@ MIT License
 
 ## 👨‍💻 Author
 
-Built by Pattrawut (ptrawt)
-
----
+Built by ptrawt
