@@ -5,7 +5,10 @@
 const TYPES = ['All', 'Tank', 'Fighter', 'Mage', 'Assassin', 'Marksman', 'Support'];
 const LANES = ['All', 'Exp Lane', 'Mid Lane', 'Gold Lane', 'Jungle', 'Roam'];
 const STORAGE_KEY = 'mlbb-filter-state';
-const TIME_LABELS = new Set(['Past 1 day', '1 Day', 'Past 7 days', 'Past 30 days']);
+const HERO_MAP_CACHE_KEY = 'mlbb-hero-map-cache';
+const HERO_MAP_TTL = 24 * 60 * 60 * 1000; // 24 hours
+const HERO_MAP_REMOTE = 'https://raw.githubusercontent.com/ptrawt/MLBB-Rank-Filter/main/hero_map.json';
+const TIME_LABELS = new Set(['Past 1 day', 'Past 3 days', 'Past 7 days', 'Past 15 days', 'Past 30 days']);
 
 // ── State ────────────────────────────────────────────────────────────────────
 
@@ -40,11 +43,64 @@ let _autoLoadGen = 0;
 
 // ── Bootstrap ────────────────────────────────────────────────────────────────
 
-fetch(chrome.runtime.getURL('hero_map.json'))
-  .then(r => r.json())
+function readHeroMapCache() {
+  try {
+    const cached = JSON.parse(localStorage.getItem(HERO_MAP_CACHE_KEY) ?? 'null');
+    if (!cached?.timestamp || !cached?.data) return null;
+    if (Date.now() - cached.timestamp > HERO_MAP_TTL) return null;
+    return cached.data;
+  } catch {
+    return null;
+  }
+}
+
+function writeHeroMapCache(data) {
+  try {
+    localStorage.setItem(
+      HERO_MAP_CACHE_KEY,
+      JSON.stringify({
+        timestamp: Date.now(),
+        data,
+      })
+    );
+  } catch {
+    // ignore cache write failure
+  }
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+async function loadHeroMap() {
+  const cached = readHeroMapCache();
+  if (cached) return cached;
+
+  try {
+    const remoteData = await fetchJson(HERO_MAP_REMOTE);
+    writeHeroMapCache(remoteData);
+    return remoteData;
+  } catch (err) {
+    console.warn('[MLBB Filter] Remote hero map failed, falling back to local file.', err);
+
+    const localData = await fetchJson(chrome.runtime.getURL('hero_map.json'));
+    writeHeroMapCache(localData);
+    return localData;
+  }
+}
+
+loadHeroMap()
   .then(({ heroes }) => {
-    heroes.forEach(h => { state.heroes[h.name] = { types: h.types, lanes: h.lanes }; });
+    state.heroes = {};
+    heroes.forEach(h => {
+      state.heroes[h.name] = { types: h.types, lanes: h.lanes };
+    });
     waitForPage();
+  })
+  .catch(err => {
+    console.error('[MLBB Filter] Failed to load hero map from both remote and local.', err);
   });
 
 // ── DOM readiness ────────────────────────────────────────────────────────────
