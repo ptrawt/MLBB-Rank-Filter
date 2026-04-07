@@ -6,9 +6,9 @@
   "permissions": [],
   "host_permissions": ["https://raw.githubusercontent.com/*"],
   "icons": {
-    "16": "icons/favicon-16x16.png",
-    "32": "icons/favicon-32x32.png",
-    "128": "icons/favicon-192x192.png"
+    "16": "assets/icons/favicon-16x16.png",
+    "32": "assets/icons/favicon-32x32.png",
+    "128": "assets/icons/favicon-192x192.png"
   },
   "web_accessible_resources": [
     {
