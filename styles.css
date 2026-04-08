@@ -93,6 +93,26 @@
   color: #ff6b6b;
 }
 
+.mlbb-hero-link {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.1rem;
+  opacity: 0.45;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+  line-height: 1;
+}
+
+.mlbb-hero-link:hover {
+  opacity: 1;
+}
+
+.mlbb-filter-group-right {
+  margin-left: auto;
+  gap: 16px;
+}
+
 .mlbb-btn.active {
   background: #1677ff;
   border-color: #1677ff;

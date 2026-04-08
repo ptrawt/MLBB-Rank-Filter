@@ -169,8 +169,7 @@ function injectFilterBar(anchor) {
   bar.appendChild(buildFilterGroup('Lane', 'mlbb-lane-btns', LANES, state.lane));
 
   const rightGroup = document.createElement('div');
-  rightGroup.className = 'mlbb-filter-group';
-  rightGroup.style.cssText = 'margin-left:auto;gap:16px';
+  rightGroup.className = 'mlbb-filter-group mlbb-filter-group-right';
 
   const countEl = document.createElement('span');
   countEl.id = 'mlbb-count';
@@ -260,6 +259,48 @@ function isHeroVisible(name) {
   );
 }
 
+const HERO_LINKS = [
+  {
+    marker: 'mlbb-yt',
+    href: name => `https://www.youtube.com/results?search_query=mlbb+${encodeURIComponent(name)}`,
+    title: name => `Search "${name}" on YouTube`,
+    svg: `<svg viewBox="0 0 24 24" width="1em" height="1em" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`,
+  },
+  {
+    marker: 'mlbb-tt',
+    href: name => `https://www.tiktok.com/search?q=mlbb%20${encodeURIComponent(name)}`,
+    title: name => `Search "${name}" on TikTok`,
+    svg: `<svg viewBox="0 0 24 24" width="1em" height="1em" fill="#ffffff"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.19 8.19 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>`,
+  },
+];
+
+function injectHeroLinks(nameEl, heroName) {
+  let anchor = nameEl;
+  for (const link of HERO_LINKS) {
+    let insertAfter = anchor;
+    let sib = anchor.nextElementSibling;
+    while (sib?.classList.contains('mlbb-hero-link')) {
+      insertAfter = sib;
+      sib = sib.nextElementSibling;
+    }
+
+    if (insertAfter !== anchor && insertAfter.dataset.mlbbMarker === link.marker) continue;
+    if (anchor === nameEl && nameEl.nextElementSibling?.dataset.mlbbMarker === link.marker) continue;
+
+    const a = document.createElement('a');
+    a.className = 'mlbb-hero-link';
+    a.dataset.mlbbMarker = link.marker;
+    a.href = link.href(heroName);
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    a.title = link.title(heroName);
+    a.innerHTML = link.svg;
+    a.addEventListener('click', e => e.stopPropagation());
+    insertAfter.insertAdjacentElement('afterend', a);
+    anchor = a;
+  }
+}
+
 function applyFilters() {
   const container = findTableContainer();
   const seen = new Set();
@@ -269,6 +310,8 @@ function applyFilters() {
 
     const name = el.textContent.trim();
     if (!state.heroes[name]) continue;
+
+    injectHeroLinks(el, name);
 
     const row = findHeroRow(el);
     if (!row || seen.has(row)) continue;

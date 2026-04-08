@@ -1,9 +1,12 @@
-![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-green)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/faagniomjpmaakgiafmflbbpnklmmhao)
 ![Status](https://img.shields.io/badge/status-active-success)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+
 # MLBB Rank Filter (Chrome Extension)
 
-Enhance your MLBB statistics browsing experience with powerful filtering tools directly on the page.
+A Chrome extension that adds a powerful filter bar to [mobilelegends.com/rank](https://www.mobilelegends.com/rank), letting you quickly filter heroes by role, lane, or name directly on the page.
+
+> **[Install from Chrome Web Store](https://chromewebstore.google.com/detail/mlbb-rank-filter/faagniomjpmaakgiafmflbbpnklmmhao)**
 
 ## ✨ Features
 
@@ -62,14 +65,15 @@ chrome://extensions
 
 ## 🚀 Usage
 
-1. Open the MLBB statistics page
-2. Wait for the filter bar to appear
+1. Open [mobilelegends.com/rank](https://www.mobilelegends.com/rank)
+2. Wait for the filter bar to appear at the top
 3. Use:
 
-   * Role buttons
-   * Lane buttons
+   * Role buttons (Tank, Fighter, Mage, ...)
+   * Lane buttons (Exp, Mid, Gold, Jungle, Roam)
    * Search input
-4. Results will update instantly
+   * YouTube / TikTok icons next to each hero name to search gameplay videos
+4. Results update instantly
 
 ---
 

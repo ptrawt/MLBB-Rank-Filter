@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "MLBB Rank Filter",
-  "description": "Add lane and hero type filters to Mobile Legends hero ranking table",
-  "version": "1.0.0",
+  "description": "Filter heroes by role and lane on the MLBB rank page, with quick YouTube and TikTok search links per hero.",
+  "version": "1.1.0",
   "permissions": [],
   "host_permissions": ["https://raw.githubusercontent.com/*"],
   "icons": {
